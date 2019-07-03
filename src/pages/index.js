@@ -29,10 +29,12 @@ const IndexPage = () => (
     <div style={{maxWidth:`750px`,maxHeight:`325px`, display:`flex`, justifyContent:`right`}}>
     <img src={vacation} alt="pictur" />
       
-      <div style={{color:`#00b6dd`, fontSize:`1.2em`, paddingLeft:`20px`}}>
+      <div style={{color:`#00b6dd`, fontSize:`1.2em`, paddingLeft:`120px`}}>
     <p>We love our customers, so feel free to contact us anytime.</p>
 
-<div style={{paddingLeft:`75px`}}>
+    <p style={{paddingLeft:`60px`}}>781-496-3947</p>
+
+<div style={{paddingLeft:`50px`}}>
       <a title="facebook" href="https://www.facebook.com/pages/category/Travel-Agency/Joy-of-Vacations-175344059164081/">
       <img
                     src={facebook}
