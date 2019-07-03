@@ -13,29 +13,23 @@ import twitter from '../img/social/twitter.svg'
 
 
 const IndexPage = () => (
-  <Layout>
-    
+
+    <main style={{textAlign:`center`, padding:`2em`}}>
     <SEO title="Home" />
-   
-    <div style={{ maxWidth: `900px` }}>
-    <img src={holaAmigo} alt="pic" /></div>
+  
+    <img src={holaAmigo} alt="pic" />
 
-    <p style={{color:`#00b6dd`, fontSize:`1.5em` }}>Travel Agency with over 30 years experience providing expert travel advice to ensure your travel plans are just the right fit for your vacation!  Making people happy one vacation at a time!.</p>
+    <p style={{color:`#00b6dd`, fontSize:`1.5rem` }}>Travel Agency with over 30 years experience providing expert travel advice to ensure your travel plans are just the right fit for your vacation!  Making people happy one vacation at a time!.</p>
     
-    <div style={{maxWidth:`450px`,maxHeight:`325px`}}>
-    <img src={vacation} alt="pictur" />
-                </div>
-                <div>
+    
+    <img src={vacation} alt="pictur" style={{maxWidth:`650px`,maxHeight:`350px`, padding:`40px`}} />
 
-    <img src={pools} alt="pict" />
-    </div>
+    <img src={pools} alt="pict" style={{paddingBottom:`40px`}} />
 
-    <div style={{color:`#00b6dd`, fontSize:`1.2em`}}>
-    <p>We love our customers, so feel free to contact us anytime.</p>
+    <p style={{color:`#00b6dd`, fontSize:`1.2em`}} >We love our customers, so feel free to contact us anytime.</p>
 
-    <p style={{paddingLeft:`60px`}}>781-496-3947</p>
+    <p style={{color:`#00b6dd`, fontSize:`1.5em` }}>781-496-3947</p>
 
-<div style={{paddingLeft:`50px`}}>
       <a title="facebook" href="https://www.facebook.com/pages/category/Travel-Agency/Joy-of-Vacations-175344059164081/">
       <img
                     src={facebook}
@@ -50,9 +44,7 @@ const IndexPage = () => (
                     style={{ width: '3em', height: '3em'}}
                   />
                 </a>
-                </div>
-                </div>
-  </Layout>
+                </main>
 )
 
 export default IndexPage
