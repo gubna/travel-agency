@@ -21,14 +21,11 @@ const IndexPage = () => (
     <img src={holaAmigo} alt="pic" /></div>
 
     <p style={{color:`#00b6dd`, fontSize:`1.5em` }}>Travel Agency with over 30 years experience providing expert travel advice to ensure your travel plans are just the right fit for your vacation!  Making people happy one vacation at a time!.</p>
-    <div style={{display:`flex`, justifyContent:`right`}}>
-    <img src={pools} alt="pict" />
-    <img src={ship} alt="pictu" />
-    </div>
     
     <div style={{maxWidth:`750px`,maxHeight:`325px`, display:`flex`, justifyContent:`right`}}>
     <img src={vacation} alt="pictur" />
-      
+
+  
       <div style={{color:`#00b6dd`, fontSize:`1.2em`, paddingLeft:`120px`}}>
     <p>We love our customers, so feel free to contact us anytime.</p>
 
@@ -52,7 +49,9 @@ const IndexPage = () => (
                 </div>
                 </div>
                 </div>
-    
+                <div>
+    <img src={pools} alt="pict" />
+    </div>
   </Layout>
 )
 
