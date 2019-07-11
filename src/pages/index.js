@@ -22,16 +22,21 @@ const IndexPage = () => (
     <p style={{color:`#00b6dd`, fontSize:`1.5rem` }}>Travel Agency with over 30 years experience providing expert travel advice to ensure your travel plans are just the right fit for your vacation!  Making people happy one vacation at a time!.</p>
     
     
-    <img src={vacation} alt="pictur" style={{maxWidth:`300px`,maxHeight:`200px`, textAlign:`center`, padding:`40px`}} />
+    <img src={vacation} alt="pictur" style={{maxWidth:`300px`,maxHeight:`200px`, textAlign:`center`, padding:`10px`}} />
 
-    <img src={pools} alt="pict" style={{paddingBottom:`40px`}} />
+    <img src={pools} alt="pict" />
 
     <p style={{color:`#00b6dd`, fontSize:`1.2em`}} >We love our customers, so feel free to contact us anytime.</p>
 
     <p style={{color:`#00b6dd`, fontSize:`1.5em` }}>781-496-3947</p>
 
-
-    <a title="twitter" href="https://twitter.com/JOYOFVACATIONS">
+      <a title="facebook" href="https://www.facebook.com/pages/category/Travel-Agency/Joy-of-Vacations-175344059164081/">
+      <img
+                    src={facebook}
+                    alt="Facebook"
+                    style={{ width: '3em', height: '3em'}}
+                  /> </a>
+                   <a title="twitter" href="https://twitter.com/JOYOFVACATIONS">
                   <img
                     className="fas fa-lg"
                     src={twitter}
@@ -39,12 +44,6 @@ const IndexPage = () => (
                     style={{ width: '3em', height: '3em'}}
                   />
                 </a>
-      <a title="facebook" href="https://www.facebook.com/pages/category/Travel-Agency/Joy-of-Vacations-175344059164081/">
-      <img
-                    src={facebook}
-                    alt="Facebook"
-                    style={{ width: '3em', height: '3em'}}
-                  /> </a>
                 
                 </main>
 )
