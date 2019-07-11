@@ -30,13 +30,8 @@ const IndexPage = () => (
 
     <p style={{color:`#00b6dd`, fontSize:`1.5em` }}>781-496-3947</p>
 
-      <a title="facebook" href="https://www.facebook.com/pages/category/Travel-Agency/Joy-of-Vacations-175344059164081/">
-      <img
-                    src={facebook}
-                    alt="Facebook"
-                    style={{ width: '3em', height: '3em'}}
-                  /> </a>
-                <a title="twitter" href="https://twitter.com/JOYOFVACATIONS">
+
+    <a title="twitter" href="https://twitter.com/JOYOFVACATIONS">
                   <img
                     className="fas fa-lg"
                     src={twitter}
@@ -44,6 +39,13 @@ const IndexPage = () => (
                     style={{ width: '3em', height: '3em'}}
                   />
                 </a>
+      <a title="facebook" href="https://www.facebook.com/pages/category/Travel-Agency/Joy-of-Vacations-175344059164081/">
+      <img
+                    src={facebook}
+                    alt="Facebook"
+                    style={{ width: '3em', height: '3em'}}
+                  /> </a>
+                
                 </main>
 )
 
