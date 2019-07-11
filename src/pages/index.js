@@ -22,7 +22,7 @@ const IndexPage = () => (
     <p style={{color:`#00b6dd`, fontSize:`1.5rem` }}>Travel Agency with over 30 years experience providing expert travel advice to ensure your travel plans are just the right fit for your vacation!  Making people happy one vacation at a time!.</p>
     
     
-    <img src={vacation} alt="pictur" style={{maxWidth:`650px`,maxHeight:`350px`, padding:`40px`}} />
+    <img src={vacation} alt="pictur" style={{maxWidth:`300px`,maxHeight:`200px`, textAlign:`center`, padding:`40px`}} />
 
     <img src={pools} alt="pict" style={{paddingBottom:`40px`}} />
 
