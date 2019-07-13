@@ -16,17 +16,15 @@ const IndexPage = () => (
 
     <main style={{textAlign:`center`, padding:`2em`}}>
     <SEO title="Home" />
-  
-    <img src={holaAmigo} alt="pic" />
 
-    <p style={{color:`#00b6dd`, fontSize:`1.5rem` }}>Travel Agency with over 30 years experience providing expert travel advice to ensure your travel plans are just the right fit for your vacation!  Making people happy one vacation at a time!.</p>
-    
-    
-    <img src={vacation} alt="pictur" style={{maxWidth:`300px`,maxHeight:`200px`, textAlign:`center`, padding:`5px`}} />
-
+    <img src={vacation} alt="pictur" style={{maxWidth:`100%`,maxHeight:`265px`, textAlign:`center`, paddingRight:`5px`}} />
     <img src={pools} alt="pict" />
-
-    <p style={{color:`#00b6dd`, fontSize:`1.2em`}} >We love our customers, so feel free to contact us anytime.</p>
+  
+    <h3 style={{color:`#00b6dd`, textAlign:`center`}}>Travel Agency with over 30 years experience providing expert travel advice to ensure your travel plans are just the right fit for your vacation!  Making people happy one vacation at a time!.</h3>
+    
+    <img src={holaAmigo} alt="pic" />
+    
+    <h2 style={{color:`#00b6dd`, fontSize:`1.2em`}} >We love our customers, so feel free to contact us anytime.</h2>
 
       <a title="facebook" href="https://www.facebook.com/pages/category/Travel-Agency/Joy-of-Vacations-175344059164081/">
       <img
@@ -42,7 +40,7 @@ const IndexPage = () => (
                     style={{ width: '3em', height: '3em'}}
                   />
                 </a>
-                <p style={{color:`#00b6dd`, fontSize:`1.5em` }}>781-496-3947</p>
+                <h3 style={{color:`#00b6dd`, fontSize:`1.5em` }}>781-496-3947</h3>
                 </main>
 )
 
