@@ -39,8 +39,13 @@ const IndexPage = () => (
                     style={{ width: '3.6em', height: '3.6em'}}
                   />
                 </a>
-                <h3 style={{color:`#ffffff`, fontSize:`1.4em` }}>joyce@joyofvacations.com</h3>
-                <h3 style={{color:`#ffffff`, fontSize:`1.4em` }}>781-496-3947</h3>
+
+
+                <a href="mailto:joyce@joyofvacations.com? subject=subject text" style={{fontSize:`1.7em`, display:`flex`, justifyContent:`center`}}>joyce@joyofvacations.com</a><br></br>
+
+
+                <p style={{color:`blue`, fontSize:`1.8em` , display:`flex`, justifyContent:`center`}}>781-496-3947</p>
+
                 </main>
 )
 
