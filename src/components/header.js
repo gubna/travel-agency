@@ -22,7 +22,6 @@ const Header = ({ siteTitle }) => (
             textAlign:`center`,
             paddingLeft:`6em`,
             color: `#00b6dd`,
-            
           }}
         >
           {siteTitle}
