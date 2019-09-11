@@ -5,11 +5,10 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import pools from "../images/Screenshot (81).png"
-import ship from "../images/cruisship.png"
-import holaAmigo from "../images/JoyOfTravel.png"
 import vacation from "../images/JoyofVacations.jpg"
 import facebook from '../img/social/facebook.svg'
 import twitter from '../img/social/twitter.svg'
+import Button from '../components/Button'
 
 
 const IndexPage = () => (
@@ -40,9 +39,8 @@ const IndexPage = () => (
                   />
                 </a>
 
-
-                <a href="mailto:joyce@joyofvacations.com? subject=subject text" style={{fontSize:`1.7em`, display:`flex`, justifyContent:`center`}}>joyce@joyofvacations.com</a><br></br>
-
+                <Button />
+                <br></br>
 
                 <p style={{color:`blue`, fontSize:`1.8em` , display:`flex`, justifyContent:`center`}}>781-496-3947</p>
 
