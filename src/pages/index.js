@@ -1,4 +1,8 @@
 import React from "react"
+import { Link } from "gatsby"
+
+import Layout from "../components/layout"
+import Image from "../components/image"
 import SEO from "../components/seo"
 import pools from "../images/Screenshot (81).png"
 import vacation from "../images/JoyofVacations.jpg"
@@ -32,7 +36,8 @@ const IndexPage = () => (
                     src={twitter}
                     alt="Twitter"
                     style={{ width: '3.6em', height: '3.6em'}}
-                  /></a>
+                  />
+</a>
 
                 <Button />
                 <br></br>
