@@ -11,7 +11,7 @@ export class Button extends Component {
             borderRadius: `15px`,
             margin: `0`,
           }}
-        >✉      <a href="mailto:joyce@joyofvacations.com?cc=travelagtjoyce@gmail.com&subject=From%20outlook" style={{fontSize:`1.2em`}}>joyce@joyofvacations.com</a>
+        >✉      <a href="mailto:" style={{fontSize:`1.2em`}}>joyce@joyofvacations.com</a>
         </button> 
             </div>
         )
