@@ -1,5 +1,13 @@
 import React, { Component } from 'react'
+import styled from "styled-components"
 
+const Container = styled.div`
+display: flex;
+justify-content: center;
+font-size:1em;
+padding: 9px;
+background-color: #b6c4cd;
+  `
 export class Button extends Component {
     render() {
         return (
@@ -12,10 +20,11 @@ export class Button extends Component {
             margin: `0`,
           }}
         >✉      <a href="mailto:joyce@joyofvacations.com? subject=subject text" style={{fontSize:`1.2em`}}>joyce@joyofvacations.com</a>
-        </button> 
-            </div>
+            
+            
         )
     }
 }
 
 export default Button
+

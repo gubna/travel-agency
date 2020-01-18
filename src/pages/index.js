@@ -7,6 +7,7 @@ import twitter from '../img/social/twitter.svg'
 import Button from '../components/Button'
 
 
+
 const IndexPage = () => (
 
     <main style={{textAlign:`center`, padding:`2em`}}>
@@ -24,21 +25,21 @@ const IndexPage = () => (
       <img
                     src={facebook}
                     alt="Facebook"
-                    style={{ width: '3.6em', height: '3.6em'}}
+                    style={{ width: '3em', height: '3em'}}
                   /> </a>
                    <a title="twitter" href="https://twitter.com/JOYOFVACATIONS">
                   <img
                     className="fas fa-lg"
                     src={twitter}
                     alt="Twitter"
-                    style={{ width: '3.6em', height: '3.6em'}}
+                    style={{ width: '3.2em', height: '3.2em'}}
                   />
 </a>
 
                 <Button />
                 <br></br>
 
-                <p style={{color:`blue`, fontSize:`1.5em` , display:`flex`, justifyContent:`center`}}>781-496-3947</p>
+                <p style={{color:`blue`, fontSize:`1.4em` , display:`flex`, justifyContent:`center`}}>781-496-3947</p>
 
                 </main>
 )
