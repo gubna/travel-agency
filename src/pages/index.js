@@ -1,14 +1,11 @@
 import React from "react"
-import { Link } from "gatsby"
-
-import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 import pools from "../images/Screenshot (81).png"
 import vacation from "../images/JoyofVacations.jpg"
 import facebook from '../img/social/facebook.svg'
 import twitter from '../img/social/twitter.svg'
 import Button from '../components/Button'
+
 
 
 const IndexPage = () => (
@@ -28,21 +25,21 @@ const IndexPage = () => (
       <img
                     src={facebook}
                     alt="Facebook"
-                    style={{ width: '3.6em', height: '3.6em'}}
+                    style={{ width: '3em', height: '3em'}}
                   /> </a>
                    <a title="twitter" href="https://twitter.com/JOYOFVACATIONS">
                   <img
                     className="fas fa-lg"
                     src={twitter}
                     alt="Twitter"
-                    style={{ width: '3.6em', height: '3.6em'}}
+                    style={{ width: '3.2em', height: '3.2em'}}
                   />
 </a>
 
                 <Button />
                 <br></br>
 
-                <p style={{color:`blue`, fontSize:`1.5em` , display:`flex`, justifyContent:`center`}}>781-496-3947</p>
+                <p style={{color:`blue`, fontSize:`1.4em` , display:`flex`, justifyContent:`center`}}>781-496-3947</p>
 
                 </main>
 )

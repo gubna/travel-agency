@@ -1,21 +1,26 @@
 import React, { Component } from 'react'
+import styled from "styled-components"
 
+const Container = styled.div`
+display: flex;
+justify-content: center;
+font-size:1em;
+padding: 9px;
+background-color: #b6c4cd;
+  `
 export class Button extends Component {
     render() {
         return (
-            <div>
-                 <button type="button"  style={{
-            textAlign:`center`,
-            padding: `12px`,
-            backgroundColor: `#b6c4cd`,
-            borderRadius: `15px`,
-            margin: `0`,
-          }}
-        >✉      <a href="mailto:joyce@joyofvacations.com?subject=JOY%20OF%20VACATIONS" style={{fontSize:`1.3em`}}>joyce@joyofvacations.com</a>
+            
+            
+            <button type="button"><Container>✉      <a href="mailto:joyce@joyofvacations.com?subject=JOY%20OF%20VACATIONS" >joyce@joyofvacations.com</a>
+           </Container>
         </button> 
-            </div>
+            
+            
         )
     }
 }
 
 export default Button
+
