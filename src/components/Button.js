@@ -7,7 +7,7 @@ export class Button extends Component {
                  <button type="button"  style={{
             textAlign:`center`,
             padding: `12px`,
-            backgroundColor: `#b6c4cd`,
+            backgroundColor: `#afc3ce`,
             borderRadius: `15px`,
             margin: `0`,
           }}
