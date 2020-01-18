@@ -11,11 +11,15 @@ background-color: #b6c4cd;
 export class Button extends Component {
     render() {
         return (
-            
-            
-            <button type="button"><Container>✉      <a href="mailto:joyce@joyofvacations.com?subject=JOY%20OF%20VACATIONS" >joyce@joyofvacations.com</a>
-           </Container>
-        </button> 
+            <div>
+                 <button type="button"  style={{
+            textAlign:`center`,
+            padding: `12px`,
+            backgroundColor: `#afc3ce`,
+            borderRadius: `15px`,
+            margin: `0`,
+          }}
+        >✉      <a href="mailto:joyce@joyofvacations.com? subject=subject text" style={{fontSize:`1.2em`}}>joyce@joyofvacations.com</a>
             
             
         )
